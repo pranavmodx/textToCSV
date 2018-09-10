@@ -28,6 +28,7 @@ def hasNumbersDot(inputString):
     
 
 # Form a list of lines in the file
+
 lines_list = file.readlines()
 
 clean_lines_list = []
