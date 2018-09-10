@@ -1,6 +1,7 @@
 import re, csv
 
 file = open('/Users/pranavshridhar/Desktop/gre_vocab_new 2.txt','r',errors = 'replace')
+
 dictionary = {}
 key_words_list = []
 key_meanings_list = []
@@ -42,6 +43,7 @@ for line in clean_lines_list:
 
 
 matched_strings_list = []
+
 for i,line in enumerate(clean_lines_list):
     if hasNumbersDot(line) == True:
         string = line
